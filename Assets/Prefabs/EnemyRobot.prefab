@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 8156523032609376892}
   - component: {fileID: -8498767207266489082}
   - component: {fileID: 4862913963430171695}
+  - component: {fileID: 8170748728824592949}
   m_Layer: 6
   m_Name: EnemyRobot
   m_TagString: Untagged
@@ -206,3 +207,18 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 64
+--- !u!114 &8170748728824592949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2185898834959333266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4f30acceb4819548be897a21c0acb2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyContactDamage
+  damage: 1
+  attackRange: 1.6
+  attackInterval: 1.2
